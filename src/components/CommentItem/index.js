@@ -45,12 +45,16 @@ const CommentItem = props => {
           <p className={`like ${likeClass}`}>Like</p>
         </button>
 
-        <button type="button" className="icon-button" onClick={clickDelButton}>
+        <button
+          type="button"
+          className="icon-button"
+          onClick={clickDelButton}
+          test="delete"
+        >
           <img
             src="https://assets.ccbp.in/frontend/react-js/comments-app/delete-img.png"
             className="del-icon"
             alt="delete"
-            testid="delete"
           />
         </button>
       </div>
